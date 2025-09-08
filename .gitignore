@@ -33,6 +33,9 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Web related
+/web/favicon.png
+
 # Symbolication related
 app.*.symbols
 
@@ -43,3 +46,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Additional Flutter build artifacts
+*.dill
+*.cache
+*.track.dill
+*.so
+*.apk
+*.aab
+*.zip-cache
+*.incremental/
+
+# Large binary files
+/android/app/intermediates/
+/android/app/outputs/
+/build/app/
+/.dart_tool/flutter_build/
